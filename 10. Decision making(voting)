@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age,req;
+    cout<<"Enter your age:";
+    cin >>age;
+    
+    if(age>=18)
+    {cout<<"\nYou are eligible";}
+    else
+    {
+      req =18-age;
+    cout<<"\n you are not eligible , try after " <<req<< " years"; 
+        
+    }
+    return 0;
+}
